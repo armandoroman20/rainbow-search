@@ -1,0 +1,93 @@
+/*!
+Theme Name: Divi Child
+Template:   Divi
+Theme URI: http://www.elegantthemes.com/gallery/divi/
+Version: 3.17.1
+Description: Divi child theme. Smart. Flexible. Beautiful. Divi is the most powerful theme in our collection.
+Author: Elegant Themes
+Author URI: http://www.elegantthemes.com
+Tags: responsive-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, theme-options, threaded-comments, translation-ready
+License: GNU General Public License v2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+/* show search */
+@media (max-width: 980px) {
+	
+	#page-container {
+		padding-top: 0 !important;
+	}
+		.et_header_style_split header#main-header .logo_container {
+			max-height: 140px!important;
+		}
+		.menu_title a {
+			color: #ffffff;
+		}
+		#wprmenu_bar .menu_title {
+			top: -11px;
+			right: 15px;
+			text-align: right;
+			font-size: 20px;
+		}
+		#et-top-navigation,
+		.et_header_style_split #et_mobile_nav_menu		{
+			display: none !important;
+		}
+		.et_fixed_nav #main-header {
+			position: initial !important;
+		}
+		.et_header_style_split #logo {
+			max-height: none!important;
+		}
+	.et_header_style_split #et_top_search, .et_vertical_nav.et_header_style_split #main-header #et_top_search {
+		display: block!important;
+	}
+	.et_header_style_centered .et_search_outer, .et_header_style_split .et_search_outer {
+    display: block!important;
+}
+	.container.et_search_form_container.et_pb_search_visible.et_pb_no_animation {
+		max-width: 300px!important;
+		    margin-top: 30px!important;
+			    float: right;
+	}
+	#et_top_search {
+		margin: 0 10px 0 0!important;
+	}
+	/* .et_header_style_left .et-search-form, .et_header_style_split .et-search-form { */
+		/* width: 100%!important; */
+		/* max-width: 100%!important; */
+	/* } */
+	
+	  /* .et_search_form_container input { */
+			/* border: 1px solid #ccc!important; */
+			/* height: 30px!important; */
+	/* } */
+	  /* .et_header_style_split #et_mobile_nav_menu { */
+		/* display: inline-block!important; */
+		/* margin-top: 20px!important; */
+	/* } */
+/* .et_header_style_split #et_mobile_nav_menu { */
+    /* float: left !important; */
+/* } */
+	/* .et_header_style_split #et-top-navigation, .et_header_style_split #et_mobile_nav_menu {  */
+		 /* position: initial!important;  */
+	/* }  */
+	/* .mobile_menu_bar:before { */
+		/* top: 20px!important; */
+	/* } */
+}
+
+
+/* this will change ALL headers for the blurbs that slide */
+
+
+/* Events Calendar */
+
+/* keep aspect ratio for similar events image on bottom of events single page */
+
+
+
+
+
+
